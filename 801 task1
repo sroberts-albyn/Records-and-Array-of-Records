@@ -9,12 +9,31 @@ class person():
 number = 0
 
 people = [person() for index in range(5)]
-For x in range(5):
-  people[number].height = 1.75
-  people[number].weight = 70.5
-  people[number].BMI = people[number].weight / people[0].height **2
-  print (people[number])
-  number = number + 1
+
+people[0].height = 1.75
+people[0].weight = 70.5
+people[0].BMI = people[0].weight / people[0].height **2
+print (people[0])
+
+people[1].height = 1.75
+people[1].weight = 70.5
+people[1].BMI = people[1].weight / people[1].height **2
+print (people[1])
+
+people[2].height = 1.75
+people[2].weight = 70.5
+people[2].BMI = people[2].weight / people[2].height **2
+print (people[2])
+
+people[3].height = 1.75
+people[3].weight = 70.5
+people[3].BMI = people[3].weight / people[3].height **2
+print (people[3])
+
+people[4].height = 1.75
+people[4].weight = 70.5
+people[4].BMI = people[4].weight / people[4].height **2
+print (people[4])
 
 '''
 Task 1
