@@ -7,6 +7,13 @@ class person():
   bmi : float = 0.0
 
 people = [person() for index in range(5)]
+For x in range(5):
+  people[number].height = input('what is the height: ')
+  people[number].weight = input('what is the weight: ')
+  people[number].BMI = people[number].weight / people[0].height **2
+  print (people[number])
+  number = number + 1
+
 
 '''
 Task 2
